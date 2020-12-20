@@ -19,9 +19,9 @@ Developed as part of my thesis: "Automatic caloric expenditure estimation with s
 * In order to preserve smartphone battery life, we also provide a power saving mode, where if Others activities are detected continuosly over
 a two-minutes window, the data collection stops for five minutes and then the activity recognition service restarts.
 
-* To perform the online activity classifcation we are using the Android version of the library for support vector machines Android LIBSVM [83], with the kernel parameter set to "linear".
+* To perform the online activity classifcation we are using the Android version of the library for support vector machines Android LIBSVM (source: https://github.com/yctung/AndroidLibSvm), with the kernel parameter set to "linear".
 
 * Furthermore, we used the data collection described in the table below to build the classification model (i.e., training data), which is embedded in the application.
 
-<center><img src="https://user-images.githubusercontent.com/5056125/102713162-2a21c900-431a-11eb-940b-553052d92b51.png" width="400"></center>
+<p align="center"><img src="https://user-images.githubusercontent.com/5056125/102713162-2a21c900-431a-11eb-940b-553052d92b51.png" width="400"></p>
 
