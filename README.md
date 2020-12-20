@@ -31,4 +31,4 @@ a two-minutes window, the data collection stops for five minutes and then the ac
 * The calories consumed are detailed by activity and in total per day, and can be checked by the user at any time. Besides calories expended, information about the number of steps, distance traveled, and floors climbed is also provided by the system to increase user's motivation.
 <p align="center"><img src="https://user-images.githubusercontent.com/5056125/102713712-49225a00-431e-11eb-8845-70d16fa2d527.png" width="200"></p>
 
-
+* Finally, the application comes with an export button, where the collected data from accelerometer, gyroscope and barometer sensors is available to the user either for research purposes or further analysis.
