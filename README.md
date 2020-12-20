@@ -8,3 +8,17 @@ the calories consumed on each exercise.
 
 Developed as part of my thesis: "Automatic caloric expenditure estimation with smartphone’s built-in sensors".
 
+# System Overview
+
+![Alt text](https://user-images.githubusercontent.com/5056125/102712745-7b7c8900-4317-11eb-9022-069661a36321.png?raw=true "Title")
+
+
+# Further Details
+* Upon installation in the smartphone, FitnessMate will be running as a background service collecting sensing data at 20Hz and recognizing the activity and aggregating its calories consumed every five seconds. 
+
+* In order to preserve smartphone battery life, we also provide a power saving mode, where if Others activities are detected continuosly over
+a two-minutes window, the data collection stops for five minutes and then the activity recognition service restarts.
+
+* To perform the online activity classifcation we are using the Android version of the library for support vector machines Android LIBSVM [83], with the kernel parameter set to "linear".
+
+* Furthermore, we used the same data collection described in table below to build the classification model, which is embedded in the application.
