@@ -21,6 +21,7 @@ a two-minutes window, the data collection stops for five minutes and then the ac
 
 * To perform the online activity classifcation we are using the Android version of the library for support vector machines Android LIBSVM [83], with the kernel parameter set to "linear".
 
-* Furthermore, we used the data collection described in the table below to build the classification model, which is embedded in the application.
-<img src="https://user-images.githubusercontent.com/5056125/102713162-2a21c900-431a-11eb-940b-553052d92b51.png" width="400">
+* Furthermore, we used the data collection described in the table below to build the classification model (i.e., training data), which is embedded in the application.
+
+<center><img src="https://user-images.githubusercontent.com/5056125/102713162-2a21c900-431a-11eb-940b-553052d92b51.png" width="400"></center>
 
