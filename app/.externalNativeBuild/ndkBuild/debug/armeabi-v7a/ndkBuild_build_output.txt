@@ -1,0 +1,5 @@
+md "C:\Users\pc\Desktop\FitnessMate\app\build\intermediates\ndkBuild\debug\lib\armeabi-v7a" >NUL 2>NUL || rem
+C:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../prebuilt/windows-x86_64/bin/echo.exe [armeabi-v7a] "Install        ": "libjnilibsvm.so => C:\Users\pc\Desktop\FitnessMate\app\build\intermediates\ndkBuild\debug\lib/armeabi-v7a/libjnilibsvm.so"
+copy /b/y "C:\Users\pc\Desktop\FitnessMate\app\.externalNativeBuild\ndkBuild\debug\obj\local\armeabi-v7a\libjnilibsvm.so" "C:\Users\pc\Desktop\FitnessMate\app\build\intermediates\ndkBuild\debug\lib\armeabi-v7a\libjnilibsvm.so" > NUL
+C:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  C:\Users\pc\Desktop\FitnessMate\app\build\intermediates\ndkBuild\debug\lib/armeabi-v7a/libjnilibsvm.so
+process_begin: CreateProcess(NULL, "", ...) failed.

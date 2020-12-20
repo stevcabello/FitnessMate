@@ -1,0 +1,5 @@
+md "C:\Users\pc\Desktop\FitnessMate\app\build\intermediates\ndkBuild\debug\lib\mips" >NUL 2>NUL || rem
+C:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../prebuilt/windows-x86_64/bin/echo.exe [mips] "Install        ": "libjnilibsvm.so => C:\Users\pc\Desktop\FitnessMate\app\build\intermediates\ndkBuild\debug\lib/mips/libjnilibsvm.so"
+copy /b/y "C:\Users\pc\Desktop\FitnessMate\app\.externalNativeBuild\ndkBuild\debug\obj\local\mips\libjnilibsvm.so" "C:\Users\pc\Desktop\FitnessMate\app\build\intermediates\ndkBuild\debug\lib\mips\libjnilibsvm.so" > NUL
+C:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../toolchains/mipsel-linux-android-4.9/prebuilt/windows-x86_64/bin/mipsel-linux-android-strip --strip-unneeded  C:\Users\pc\Desktop\FitnessMate\app\build\intermediates\ndkBuild\debug\lib/mips/libjnilibsvm.so
+process_begin: CreateProcess(NULL, "", ...) failed.

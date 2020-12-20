@@ -1,0 +1,5 @@
+md "C:\Users\pc\Desktop\FitnessMate\app\build\intermediates\ndkBuild\debug\lib\x86_64" >NUL 2>NUL || rem
+C:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../prebuilt/windows-x86_64/bin/echo.exe [x86_64] "Install        ": "libjnilibsvm.so => C:\Users\pc\Desktop\FitnessMate\app\build\intermediates\ndkBuild\debug\lib/x86_64/libjnilibsvm.so"
+copy /b/y "C:\Users\pc\Desktop\FitnessMate\app\.externalNativeBuild\ndkBuild\debug\obj\local\x86_64\libjnilibsvm.so" "C:\Users\pc\Desktop\FitnessMate\app\build\intermediates\ndkBuild\debug\lib\x86_64\libjnilibsvm.so" > NUL
+C:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../toolchains/x86_64-4.9/prebuilt/windows-x86_64/bin/x86_64-linux-android-strip --strip-unneeded  C:\Users\pc\Desktop\FitnessMate\app\build\intermediates\ndkBuild\debug\lib/x86_64/libjnilibsvm.so
+process_begin: CreateProcess(NULL, "", ...) failed.

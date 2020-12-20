@@ -1,0 +1,49 @@
+{
+  "buildFiles": [
+    "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\Android.mk",
+    "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\pc\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dmips NDK_ALL_ABIS\u003dmips NDEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:\\Users\\pc\\Desktop\\FitnessMate\\app\\.externalNativeBuild\\ndkBuild\\release\\obj NDK_LIBS_OUT\u003dC:\\Users\\pc\\Desktop\\FitnessMate\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "jnilibsvm-release-mips": {
+      "buildCommand": "C:\\Users\\pc\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dmips NDK_ALL_ABIS\u003dmips NDEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:\\Users\\pc\\Desktop\\FitnessMate\\app\\.externalNativeBuild\\ndkBuild\\release\\obj NDK_LIBS_OUT\u003dC:\\Users\\pc\\Desktop\\FitnessMate\\app\\build\\intermediates\\ndkBuild\\release\\lib C:\\Users\\pc\\Desktop\\FitnessMate\\app\\.externalNativeBuild\\ndkBuild\\release\\obj/local/mips/libjnilibsvm.so",
+      "toolchain": "toolchain-mips",
+      "abi": "mips",
+      "artifactName": "jnilibsvm",
+      "files": [
+        {
+          "src": "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\common.cpp",
+          "flags": "\"-fpic\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-IC:/Users/pc/Desktop/FitnessMate/app/src/main/jni\" \"-DANDROID\" \"-DDEV_NDK\u003d1\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-frtti\" \"-fexceptions\" \"-isystem\" \"C:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-14/arch-mips/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\jnilibsvm.cpp",
+          "flags": "\"-fpic\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-IC:/Users/pc/Desktop/FitnessMate/app/src/main/jni\" \"-DANDROID\" \"-DDEV_NDK\u003d1\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-frtti\" \"-fexceptions\" \"-isystem\" \"C:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-14/arch-mips/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\libsvm\\svm-predict.cpp",
+          "flags": "\"-fpic\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-IC:/Users/pc/Desktop/FitnessMate/app/src/main/jni\" \"-DANDROID\" \"-DDEV_NDK\u003d1\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-frtti\" \"-fexceptions\" \"-isystem\" \"C:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-14/arch-mips/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\libsvm\\svm-train.cpp",
+          "flags": "\"-fpic\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-IC:/Users/pc/Desktop/FitnessMate/app/src/main/jni\" \"-DANDROID\" \"-DDEV_NDK\u003d1\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-frtti\" \"-fexceptions\" \"-isystem\" \"C:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-14/arch-mips/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\libsvm\\svm.cpp",
+          "flags": "\"-fpic\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-IC:/Users/pc/Desktop/FitnessMate/app/src/main/jni\" \"-DANDROID\" \"-DDEV_NDK\u003d1\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-frtti\" \"-fexceptions\" \"-isystem\" \"C:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-14/arch-mips/usr/include\""
+        }
+      ],
+      "output": "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\.externalNativeBuild\\ndkBuild\\release\\obj\\local\\mips\\libjnilibsvm.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-mips": {
+      "cppCompilerExecutable": "C:\\Users\\pc\\AppData\\Local\\Android\\sdk\\ndk-bundle\\build\\..\\toolchains\\mipsel-linux-android-4.9\\prebuilt\\windows-x86_64\\bin\\mipsel-linux-android-g++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

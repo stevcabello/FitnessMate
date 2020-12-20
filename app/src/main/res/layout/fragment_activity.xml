@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/iv_duration"
+                android:background="@drawable/duration"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Duration"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:visibility="gone" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="            "
+            android:textSize="40dp"
+            android:layout_gravity="bottom" />
+
+            <TextView
+                android:id="@+id/tvcurrentactivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:textSize="20dp"
+                android:layout_gravity="end"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:format="%s"
+            android:textSize="75dp"
+            android:visibility="gone"
+            android:id="@+id/chronometer" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:id="@+id/tvService"
+            />
+
+
+    </LinearLayout>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/spinner_activities"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:background="@drawable/start"
+                android:id="@+id/ibtnStart" />
+
+            <ImageButton
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:background="@drawable/pause"
+                android:visibility="gone"
+                android:id="@+id/ibtnStop"
+                 />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/timecircle"
+                android:id="@+id/btn_timecircle"
+                android:text="20"
+                android:textSize="20dp"
+                android:textColor="@color/primary_text_default_material_dark"
+                android:layout_gravity="bottom" />
+
+            <ImageButton
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/pause"
+                android:visibility="gone"
+                android:id="@+id/ibtnPause"
+                android:layout_gravity="bottom" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/tvPowerSavingMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Power Saving Mode Disabled"
+            android:layout_marginRight="5dp"
+            android:textSize="14sp"
+             />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnGPS"
+            android:background="@drawable/gps"
+            android:visibility="gone" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/statusGPS"
+            android:text="GPS Disabled"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</FrameLayout>

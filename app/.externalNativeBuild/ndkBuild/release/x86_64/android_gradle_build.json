@@ -1,0 +1,49 @@
+{
+  "buildFiles": [
+    "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\Android.mk",
+    "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\pc\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:\\Users\\pc\\Desktop\\FitnessMate\\app\\.externalNativeBuild\\ndkBuild\\release\\obj NDK_LIBS_OUT\u003dC:\\Users\\pc\\Desktop\\FitnessMate\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "jnilibsvm-release-x86_64": {
+      "buildCommand": "C:\\Users\\pc\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:\\Users\\pc\\Desktop\\FitnessMate\\app\\.externalNativeBuild\\ndkBuild\\release\\obj NDK_LIBS_OUT\u003dC:\\Users\\pc\\Desktop\\FitnessMate\\app\\build\\intermediates\\ndkBuild\\release\\lib C:\\Users\\pc\\Desktop\\FitnessMate\\app\\.externalNativeBuild\\ndkBuild\\release\\obj/local/x86_64/libjnilibsvm.so",
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "jnilibsvm",
+      "files": [
+        {
+          "src": "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\common.cpp",
+          "flags": "\"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-IC:/Users/pc/Desktop/FitnessMate/app/src/main/jni\" \"-DANDROID\" \"-DDEV_NDK\u003d1\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-frtti\" \"-fexceptions\" \"-isystem\" \"C:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-21/arch-x86_64/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\jnilibsvm.cpp",
+          "flags": "\"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-IC:/Users/pc/Desktop/FitnessMate/app/src/main/jni\" \"-DANDROID\" \"-DDEV_NDK\u003d1\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-frtti\" \"-fexceptions\" \"-isystem\" \"C:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-21/arch-x86_64/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\libsvm\\svm-predict.cpp",
+          "flags": "\"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-IC:/Users/pc/Desktop/FitnessMate/app/src/main/jni\" \"-DANDROID\" \"-DDEV_NDK\u003d1\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-frtti\" \"-fexceptions\" \"-isystem\" \"C:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-21/arch-x86_64/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\libsvm\\svm-train.cpp",
+          "flags": "\"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-IC:/Users/pc/Desktop/FitnessMate/app/src/main/jni\" \"-DANDROID\" \"-DDEV_NDK\u003d1\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-frtti\" \"-fexceptions\" \"-isystem\" \"C:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-21/arch-x86_64/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\libsvm\\svm.cpp",
+          "flags": "\"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include\" \"-IC:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-IC:/Users/pc/Desktop/FitnessMate/app/src/main/jni\" \"-DANDROID\" \"-DDEV_NDK\u003d1\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-frtti\" \"-fexceptions\" \"-isystem\" \"C:/Users/pc/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-21/arch-x86_64/usr/include\""
+        }
+      ],
+      "output": "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\.externalNativeBuild\\ndkBuild\\release\\obj\\local\\x86_64\\libjnilibsvm.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86_64": {
+      "cppCompilerExecutable": "C:\\Users\\pc\\AppData\\Local\\Android\\sdk\\ndk-bundle\\build\\..\\toolchains\\x86_64-4.9\\prebuilt\\windows-x86_64\\bin\\x86_64-linux-android-g++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

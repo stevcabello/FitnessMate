@@ -1,0 +1,11 @@
+{
+  "buildFiles": [
+    "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\Android.mk",
+    "C:\\Users\\pc\\Desktop\\FitnessMate\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [],
+  "libraries": {},
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}
