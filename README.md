@@ -10,7 +10,7 @@ Developed as part of my thesis: "Automatic caloric expenditure estimation with s
 
 # System Overview
 
-![Alt text](https://user-images.githubusercontent.com/5056125/102712745-7b7c8900-4317-11eb-9022-069661a36321.png?raw=true "Overview")
+<p align="center"><img src="https://user-images.githubusercontent.com/5056125/102712745-7b7c8900-4317-11eb-9022-069661a36321.png" width="500"></p>
 
 
 # Further Details
@@ -25,7 +25,10 @@ a two-minutes window, the data collection stops for five minutes and then the ac
 
 <p align="center"><img src="https://user-images.githubusercontent.com/5056125/102713162-2a21c900-431a-11eb-940b-553052d92b51.png" width="400"></p>
 
-* The user is allowed to provide information related to his height, weigth, and gender (see Fig. 5.1a) to increase the accuracy of the calories estimation.
-
+* The user is allowed to provide information related to his height, weigth, and gender to increase the accuracy of the calories estimation.
+<p align="center"><img src="https://user-images.githubusercontent.com/5056125/102713746-7c64e900-431e-11eb-9b8d-a9e6f10d64f7.png" width="200"></p>
 
 * The calories consumed are detailed by activity and in total per day, and can be checked by the user at any time. Besides calories expended, information about the number of steps, distance traveled, and floors climbed is also provided by the system to increase user's motivation.
+<p align="center"><img src="https://user-images.githubusercontent.com/5056125/102713712-49225a00-431e-11eb-8845-70d16fa2d527.png" width="200"></p>
+
+
