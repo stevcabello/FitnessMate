@@ -10,7 +10,7 @@ Developed as part of my thesis: "Automatic caloric expenditure estimation with s
 
 # System Overview
 
-![Alt text](https://user-images.githubusercontent.com/5056125/102712745-7b7c8900-4317-11eb-9022-069661a36321.png?raw=true "Title")
+![Alt text](https://user-images.githubusercontent.com/5056125/102712745-7b7c8900-4317-11eb-9022-069661a36321.png?raw=true "Overview")
 
 
 # Further Details
@@ -21,4 +21,6 @@ a two-minutes window, the data collection stops for five minutes and then the ac
 
 * To perform the online activity classifcation we are using the Android version of the library for support vector machines Android LIBSVM [83], with the kernel parameter set to "linear".
 
-* Furthermore, we used the same data collection described in table below to build the classification model, which is embedded in the application.
+* Furthermore, we used the data collection described in the table below to build the classification model, which is embedded in the application.
+![Alt text](https://user-images.githubusercontent.com/5056125/102713162-2a21c900-431a-11eb-940b-553052d92b51.png?raw=true "Training data")
+
