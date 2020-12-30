@@ -6,7 +6,8 @@ Every five seconds the activity perfomed is automatically recognized and the cal
 FitnessMate automatically detects 5 types of activities: walking, jogging, cycling and walking upstairs/downstairs providing 
 the calories consumed on each exercise. 
 
-Developed as part of my Master's thesis: "Automatic caloric expenditure estimation with smartphone’s built-in sensors".
+Developed as part of my Master's thesis: ["Automatic caloric expenditure estimation with smartphone’s built-in sensors".](https://minerva-access.unimelb.edu.au/handle/11343/256330)
+
 
 # System Overview
 
