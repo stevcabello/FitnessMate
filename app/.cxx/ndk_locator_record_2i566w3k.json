@@ -1,0 +1,11 @@
+{
+  "ndk": "/Users/ncabello/Library/Android/sdk/ndk-bundle",
+  "revision": {
+    "mMajor": 22,
+    "mMinor": 0,
+    "mMicro": 7026061,
+    "mPreview": 0,
+    "mPrecision": "MICRO",
+    "mPreviewSeparator": " "
+  }
+}

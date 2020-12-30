@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/primary_text_default_material_dark"
-    tools:context="unimelb.steven.fitnessapp.fragments.CaloriesFragment">
+    tools:context="unimelb.steven2.fitnessapp.fragments.CaloriesFragment">
 
     <ExpandableListView
         android:layout_width="match_parent"

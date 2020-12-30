@@ -1,0 +1,6 @@
+[arm64-v8a] Compile++      : jnilibsvm <= common.cpp
+[arm64-v8a] Compile++      : jnilibsvm <= jnilibsvm.cpp
+[arm64-v8a] Compile++      : jnilibsvm <= svm-train.cpp
+[arm64-v8a] Compile++      : jnilibsvm <= svm-predict.cpp
+[arm64-v8a] Compile++      : jnilibsvm <= svm.cpp
+[arm64-v8a] SharedLibrary  : libjnilibsvm.so

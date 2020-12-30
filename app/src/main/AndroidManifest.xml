@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="unimelb.steven.fitnessapp">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="unimelb.steven2.fitnessapp">
 
     <!-- <permission -->
     <!-- android:name="unimelb.steven.fitnessapp.fragments.permission.MAPS_RECEIVE" -->
@@ -17,17 +18,17 @@
     <!--<uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />-->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.BODY_SENSORS" />
-    <!--<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />-->
-    <!--<uses-permission android:name="android.permission.BLUETOOTH" />-->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_bunny"
+        android:icon="@mipmap/fitness_mate_logo"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="unimelb.steven2.fitnessapp.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,14 +37,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DeviceListActivity"
+            android:name="unimelb.steven2.fitnessapp.DeviceListActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/select_device"
             android:theme="@android:style/Theme.Holo.Dialog" />
 
 
         <receiver
-            android:name=".BootCompletedIntentReceiver"
+            android:name="unimelb.steven2.fitnessapp.BootCompletedIntentReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -57,15 +58,15 @@
         <!-- android:value="AIzaSyDH6PCXilnZib7LEmptlhpDZFwm-kyALiQ" /> -->
 
         <service
-            android:name=".services.SendDataService"
+            android:name="unimelb.steven2.fitnessapp.services.SendDataService"
             android:enabled="true"
             android:exported="true"></service>
         <service
-            android:name=".services.AllSensorsService"
+            android:name="unimelb.steven2.fitnessapp.services.AllSensorsService"
             android:enabled="true"
             android:exported="true"></service>
         <service
-            android:name=".services.ARService"
+            android:name="unimelb.steven2.fitnessapp.services.ARService"
             android:enabled="true"
             android:exported="true"></service>
     </application>
