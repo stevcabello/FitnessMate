@@ -1,6 +1,1 @@
-[armeabi-v7a] Compile++ thumb: jnilibsvm <= common.cpp
-[armeabi-v7a] Compile++ thumb: jnilibsvm <= jnilibsvm.cpp
-[armeabi-v7a] Compile++ thumb: jnilibsvm <= svm-train.cpp
-[armeabi-v7a] Compile++ thumb: jnilibsvm <= svm-predict.cpp
-[armeabi-v7a] Compile++ thumb: jnilibsvm <= svm.cpp
-[armeabi-v7a] SharedLibrary  : libjnilibsvm.so
+make: Nothing to be done for 'jnilibsvm'.

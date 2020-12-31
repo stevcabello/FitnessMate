@@ -16,7 +16,7 @@
 
 
 // helper function to be called in Java for making svm-train
-extern "C" void Java_unimelb_steven_fitnessapp_services_ARService_jniSvmTrain(JNIEnv *env, jobject obj, jstring cmdIn){
+extern "C" void Java_unimelb_steven2_fitnessapp_services_ARService_jniSvmTrain(JNIEnv *env, jobject obj, jstring cmdIn){
 	const char *cmd = env->GetStringUTFChars(cmdIn, 0);
 	debug("jniSvmTrain cmd = %s", cmd);
 
@@ -41,7 +41,7 @@ extern "C" void Java_unimelb_steven_fitnessapp_services_ARService_jniSvmTrain(JN
 }
 
 // helper function to be called in Java for making svm-predict
-extern "C" void Java_unimelb_steven_fitnessapp_services_ARService_jniSvmPredict(JNIEnv *env, jobject obj, jstring cmdIn){
+extern "C" void Java_unimelb_steven2_fitnessapp_services_ARService_jniSvmPredict(JNIEnv *env, jobject obj, jstring cmdIn){
 	const char *cmd = env->GetStringUTFChars(cmdIn, 0);
 	debug("jniSvmPredict cmd = %s", cmd);
 
@@ -70,11 +70,11 @@ extern "C" void Java_unimelb_steven_fitnessapp_services_ARService_jniSvmPredict(
 /*
 *  just some test functions -> can be removed
 */
-extern "C" JNIEXPORT int JNICALL Java_unimelb_steven_fitnessapp_services_ARService_testInt(JNIEnv * env, jobject obj){
+extern "C" JNIEXPORT int JNICALL Java_unimelb_steven2_fitnessapp_services_ARService_testInt(JNIEnv * env, jobject obj){
 	return 5566;
 }
 
-extern "C" void Java_unimelb_steven_fitnessapp_services_ARService_testLog(JNIEnv *env, jobject obj, jstring logThis){
+extern "C" void Java_unimelb_steven2_fitnessapp_services_ARService_testLog(JNIEnv *env, jobject obj, jstring logThis){
 	const char * szLogThis = env->GetStringUTFChars(logThis, 0);
 	debug("%s",szLogThis);
 

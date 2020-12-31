@@ -1,6 +1,1 @@
-[x86] Compile++      : jnilibsvm <= common.cpp
-[x86] Compile++      : jnilibsvm <= jnilibsvm.cpp
-[x86] Compile++      : jnilibsvm <= svm-train.cpp
-[x86] Compile++      : jnilibsvm <= svm-predict.cpp
-[x86] Compile++      : jnilibsvm <= svm.cpp
-[x86] SharedLibrary  : libjnilibsvm.so
+make: Nothing to be done for 'jnilibsvm'.
