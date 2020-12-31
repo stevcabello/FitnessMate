@@ -20,6 +20,14 @@ Developed as part of my Master's thesis: ["Automatic caloric expenditure estimat
 * In order to preserve smartphone battery life, we also provide a power saving mode, where if Others activities are detected continuosly over
 a two-minutes window, the data collection stops for five minutes and then the activity recognition service restarts.
 
+* To test, place the smartphone in the front left pocket, with the device oriented with the screen facing towards the body and the USB connection port facing up. With the smartphone in this position, the application recognizes the following activities: walking, cycling, and walking upstairs/downstairs.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/5056125/103394114-ae761680-4b7a-11eb-8775-240d867195a1.png" width="400"></p>
+
+* In the case of jogging, place the smartphone in the left arm with an armband (i.e., not in pant's pocket). The device has to be oriented with the screen facing away from the body and the USB connection port facing down.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/5056125/103394147-dbc2c480-4b7a-11eb-9e38-cb0051ae7a7d.png.png" width="400"></p>
+
 * To perform the online activity classifcation we are using the Android version of the library for support vector machines Android LIBSVM (source: https://github.com/yctung/AndroidLibSvm), with the kernel parameter set to "linear".
 
 * Furthermore, we used the data collection described in the table below to build the classification model (i.e., training data), which is embedded in the application.
