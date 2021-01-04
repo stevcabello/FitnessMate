@@ -8,6 +8,7 @@ the calories consumed on each exercise.
 
 Developed as part of my Master's thesis: ["Automatic caloric expenditure estimation with smartphone’s built-in sensors".](https://minerva-access.unimelb.edu.au/handle/11343/256330)
 
+Install FitnessMate from Google Play Store --> https://play.google.com/store/apps/details?id=unimelb.steven2.fitnessapp
 
 # System Overview
 
